@@ -8,7 +8,7 @@ import Link from "./components/Link";
 
 function App() {
   const [data, loading, error] = useFetch("https://randomuser.me/api");
-  const [selected, setSelected] = useState("youtube");
+  const [selected, setSelected] = useState("");
   const names = ["youtube", "google", "gogo"];
   const style = {
     outer: {
