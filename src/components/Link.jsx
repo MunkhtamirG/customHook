@@ -6,14 +6,16 @@ export default function Link(props) {
       display: "flex",
       width: "100%",
       justifyContent: "space-around",
-      marginTop: "40px",
+      marginTop: "70vh",
     },
     inner: {
-      backgroundColor: props.selected ? "teal" : "orange",
+      backgroundColor: props.selected ? "#dd3e54" : "orange",
       padding: "20px",
       borderRadius: "20px",
       fontSize: "40px",
       marginTop: "40px",
+      color: "white",
+      marginTop: "20vh",
     },
   };
   return (

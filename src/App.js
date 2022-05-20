@@ -26,7 +26,7 @@ function App() {
   if (loading) return <Loading />;
   if (error) return <Error />;
   const styleInner = {
-    paddingTop: "35vh",
+    paddingTop: "15vh",
   };
 
   return (
